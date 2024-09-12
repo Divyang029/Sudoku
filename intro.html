@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Sudoku</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, ol, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #009688;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style the main content */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style the introduction section */
+        .intro {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .intro h2 {
+            color: #009688;
+        }
+
+        /* Style the "How to Play" section */
+        .how-to-play {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .how-to-play h2 {
+            color: #009688;
+        }
+
+        .how-to-play ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .how-to-play li {
+            margin: 5px 0;
+        }
+
+        /* Style the "Try Now" section */
+        .try-now {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .try-now h2 {
+            color: #009688;
+        }
+
+        .try-now p {
+            margin-top: 10px;
+        }
+
+        .try-now a {
+            display: inline-block;
+            background-color: #009688;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .try-now a:hover {
+            background-color: #007772;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sudoku</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>What is Sudoku?</h2>
+            <p>Sudoku is a classic logic-based number puzzle. The goal is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 sub-grids that compose the grid (also known as "regions") contains all of the digits from 1 to 9 without repetition.</p>
+        </section>
+
+        <section class="how-to-play">
+            <h2>How to Play Sudoku</h2>
+            <ol>
+                <li>Each row must have all the numbers from 1 to 9 with no repetitions.</li>
+                <li>Each column must have all the numbers from 1 to 9 with no repetitions.</li>
+                <li>Each 3x3 sub-grid must have all the numbers from 1 to 9 with no repetitions.</li>
+                <li>Start with a partially filled grid and use logic to fill in the missing numbers.</li>
+            </ol>
+        </section>
+
+        <section class="try-now">
+            <h2>Ready to Try?</h2>
+            <p>Test your logical skills and have fun with Sudoku puzzles. Click the button below to start playing now!</p>
+            <a href="sudoku-play.html">Play Sudoku</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sudoku Game. All rights reserved.</p>
+    </footer>
+</body>
+</html>
